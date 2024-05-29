@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#UAS SISTEM OPERASI
+#Nama : Tiara Mera Sifa
+#NIM  : 2341720247
+#Kelas: 1B - 27
+
 # Membuat direktori baru
 create_directory() {
     echo "Masukkan nama direktori baru:"
@@ -117,18 +122,19 @@ change_permissions() {
 # Menu utama
 main_menu() {
     while true; do
-        echo "=== Manajemen File System ==="
+        echo "===== MeraFS ====="
         echo "Pilihan:"
-        echo "1. Membuat direktori baru"
-        echo "2. Membuat file baru"
-        echo "3. Menyalin file"
-        echo "4. Menghapus file"
-        echo "5. Membaca isi file"
-        echo "6. Melihat isi direktori"
-        echo "7. Mengubah nama file"
-        echo "8. Memindahkan file"
-        echo "9. Mengubah izin file atau direktori"
+        echo "1. Buat direktori"
+        echo "2. Buat file"
+        echo "3. Salin file"
+        echo "4. Hapus file"
+        echo "5. Baca file"
+        echo "6. Lihat isi direktori"
+        echo "7. Ubah nama file"
+        echo "8. Pindah file"
+        echo "9. Ubah izin file"
         echo "10. Keluar"
+
 
         read choice
 
