@@ -25,6 +25,6 @@
 
 
 # SCREENSHOT PROGRAM
-
+![alt text](image.png)
 
 | MeraFS - Program Shell - UAS Praktikum Sistem Operasi |
