@@ -13,18 +13,18 @@
 |  |  |  |
 |--|--|--|
 |**No**| **Fitur** | **Detail** |
-| 1 | Buat Direktori | Melihat daftar isi sebuah direktori dengan perintah ***mkdir*** |
-| 2 | Buat File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 3 | Salin File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 4 | Hapus File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 5 | Baca File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 6 | Lihat Isi Direktori | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 7 | Ubah Nama File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 8 | Pindah File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 9 | Ubah Izin File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
+| 1 | Buat Direktori | Membuat direktori baru dengan perintah ***mkdir*** |
+| 2 | Buat File | Membuat file baru dengan perintah ***touch*** |
+| 3 | Salin File | Menyalin file dengan perintah ***cp*** |
+| 4 | Hapus File | Menghapus file dengan perintah ***rm*** |
+| 5 | Baca File | Membaca isi file dengan perintah ***cat*** |
+| 6 | Lihat Isi Direktori | Melihat isi sebuah direktori dengan perintah ***ls*** |
+| 7 | Ubah Nama File | Mengubah nama file dengan perintah ***mv*** |
+| 8 | Pindah File | Memindahkan file dengan perintah ***mv*** |
+| 9 | Ubah Izin File | Mengubah izin file atau direktori dengan perintah ***chmod*** |
 
 
 # SCREENSHOT PROGRAM
 
 
-| VArchiver - Program Shell - UAS Praktikum Sistem Operasi |
+| MeraFS - Program Shell - UAS Praktikum Sistem Operasi |
