@@ -122,8 +122,8 @@ change_permissions() {
 # Menu utama
 main_menu() {
     while true; do
-        echo "===== MeraFS ====="
-        echo "Pilihan:"
+        echo "====== MeraFS ======"
+        echo "===== Pilih Menu ====="
         echo "1. Buat direktori"
         echo "2. Buat file"
         echo "3. Salin file"
@@ -134,9 +134,26 @@ main_menu() {
         echo "8. Pindah file"
         echo "9. Ubah izin file"
         echo "10. Keluar"
-
-
+        echo "======================"
+        echo "Masukkan pilihan: "
         read choice
+
+        case $choice in
+            1) create_directory ;;
+            2) create_file ;;
+            3) copy_file ;;
+            4) delete_file ;;
+            5) read_file ;;
+            6) list_directory ;;
+            7) rename_file ;;
+            8) move_file ;;
+            9) change_permissions ;;
+            10) echo "Terima kasih telah menggunakan program manajemen file." ; exit ;;
+            *) echo "Pilihan tidak valid. Silakan masukkan pilihan yang benar." ;;
+        esac
+    done
+}
+
 
         case $choice in
             1) create_directory ;;
